@@ -28,8 +28,8 @@ spring.kafka.bootstrap-servers:localhost:9092
 
 
 ## Project Status
-Project is:  complete
-Sample Request:
+Project is:  completed
+-Sample Request
 
 POST /files/upload HTTP/1.1
 Host: localhost:8080
