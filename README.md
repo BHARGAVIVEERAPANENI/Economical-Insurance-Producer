@@ -28,7 +28,26 @@ spring.kafka.bootstrap-servers:localhost:9092
 
 
 ## Project Status
-Project is:  complete 
+Project is:  complete
+Sample Request:
+
+POST /files/upload HTTP/1.1
+Host: localhost:8080
+Cache-Control: no-cache
+Postman-Token: 6f6a7454-43f5-f3d4-5ae1-cc20b0fbac25
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file1"; filename="convertcsv.csv"
+Content-Type: application/vnd.ms-excel
+
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file2"; filename="userInfo.csv"
+Content-Type: application/vnd.ms-excel
+
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
 
 
 ## Room for Improvement
